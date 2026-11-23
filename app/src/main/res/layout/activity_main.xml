@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_background"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_background"
+        android:fitsSystemWindows="true"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_toolbar_height"
+            android:paddingHorizontal="8dp"
+            style="@style/AppToolbar">
+            <com.google.android.material.button.MaterialButtonToggleGroup
+                android:id="@+id/sectionTabs" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                app:singleSelection="true" app:selectionRequired="true" app:checkedButton="@id/tabMemos">
+                <com.google.android.material.button.MaterialButton android:id="@+id/tabMemos"
+                    style="@style/AppTab" android:layout_width="wrap_content" android:layout_height="48dp"
+                    android:minWidth="96dp" android:text="@string/tab_memos" />
+                <com.google.android.material.button.MaterialButton android:id="@+id/tabNotebooks"
+                    style="@style/AppTab" android:layout_width="wrap_content" android:layout_height="48dp"
+                    android:minWidth="96dp" android:text="@string/tab_notebooks" />
+            </com.google.android.material.button.MaterialButtonToggleGroup>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- 笔记列表 -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- 底部双椭圆按钮区域 -->
+    <LinearLayout
+        android:id="@+id/bottomButtonBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/color_background"
+        android:elevation="8dp"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="20dp">
+
+        <!-- 文字记录按钮（椭圆胶囊形） -->
+        <Button
+            android:id="@+id/btnNewText"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/text_note_button"
+            android:textSize="15sp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            style="@style/AppButton.Secondary.Pill" />
+
+        <!-- 语音录入按钮（椭圆胶囊形） -->
+        <Button
+            android:id="@+id/btnNewVoice"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/voice_note_button"
+            android:textSize="15sp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            style="@style/AppButton.Record.Pill" />
+
+        <Button android:id="@+id/btnNewNotebook" style="@style/AppButton.Primary.Pill"
+            android:layout_width="match_parent" android:layout_height="56dp"
+            android:text="@string/notebook_new" android:textColor="@color/color_text_primary"
+            android:textSize="16sp" android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

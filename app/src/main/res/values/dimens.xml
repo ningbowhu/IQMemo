@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_corner_radius">12dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="card_margin_horizontal">16dp</dimen>
+    <dimen name="card_margin_vertical">3dp</dimen>
+    <dimen name="card_padding_horizontal">10dp</dimen>
+    <dimen name="card_padding_vertical">7dp</dimen>
+    <dimen name="main_toolbar_height">48dp</dimen>
+    <dimen name="text_size_content">16sp</dimen>
+    <dimen name="text_size_tag">11sp</dimen>
+    <dimen name="tag_padding_horizontal">8dp</dimen>
+    <dimen name="tag_padding_vertical">3dp</dimen>
+</resources>

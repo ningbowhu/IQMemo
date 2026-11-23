@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色调：暖白/纸张色 -->
+    <color name="color_background">#FAF3E0</color>
+    <!-- 强调色：暖金色 -->
+    <color name="color_accent">#D4B87A</color>
+    <!-- 文字主色：深灰 -->
+    <color name="color_text_primary">#4A4A4A</color>
+    <!-- 文字辅色：浅灰 -->
+    <color name="color_text_secondary">#9E9E9E</color>
+    <!-- 分割线色：淡棕 -->
+    <color name="color_divider">#E8E2D4</color>
+    <!-- 卡片背景 -->
+    <color name="color_card_bg">#FFFFFF</color>
+    <!-- 卡片/选择栏背景 -->
+    <color name="color_card">#FFFFFF</color>
+    <!-- 状态栏颜色 -->
+    <color name="color_status_bar">#F0E6CC</color>
+    <!-- 录音按钮红色 -->
+    <color name="color_recording">#E57373</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_notebook_secondary">#726D62</color>
+    <color name="color_delete_button">#B94C4C</color>
+    <color name="launcher_yellow">#F9DB82</color>
+</resources>

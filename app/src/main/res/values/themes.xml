@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主应用主题 -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_accent</item>
+        <item name="colorPrimaryVariant">@color/color_status_bar</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/color_accent</item>
+        <item name="android:windowBackground">@color/color_background</item>
+        <item name="android:statusBarColor">@color/color_status_bar</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/color_background</item>
+    </style>
+
+    <!-- 工具栏主题 -->
+    <style name="AppToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/color_background</item>
+        <item name="titleTextColor">@color/color_text_primary</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleStyle</item>
+    </style>
+
+    <style name="ToolbarTitleStyle" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/color_text_primary</item>
+    </style>
+
+    <style name="CalendarWeekLabel">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/color_text_secondary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- 按钮基础样式 -->
+    <style name="AppTab" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/tab_text</item>
+        <item name="backgroundTint">@color/tab_background</item>
+        <item name="strokeColor">@color/color_divider</item>
+        <item name="cornerRadius">18dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0</item>
+        <item name="android:insetTop">4dp</item>
+        <item name="android:insetBottom">4dp</item>
+    </style>
+
+    <style name="AppButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:letterSpacing">0</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <!-- 主要按钮（金色） -->
+    <style name="AppButton.Primary">
+        <item name="backgroundTint">@color/color_accent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppButton.Primary.Pill" parent="AppButton.Primary">
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- 次要按钮（描边） -->
+    <style name="AppButton.Secondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_accent</item>
+        <item name="android:textColor">@color/color_accent</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <!-- 录音按钮（红色） -->
+    <style name="AppButton.Record">
+        <item name="backgroundTint">@color/color_recording</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- 椭圆胶囊形次要按钮（描边） -->
+    <style name="AppButton.Secondary.Pill" parent="AppButton.Secondary">
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- 椭圆胶囊形录音按钮（红色） -->
+    <style name="AppButton.Record.Pill" parent="AppButton.Record">
+        <item name="cornerRadius">28dp</item>
+    </style>
+
+    <!-- 危险操作按钮（红色描边） -->
+    <style name="AppButton.Danger" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/color_recording</item>
+        <item name="android:textColor">@color/color_recording</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+</resources>

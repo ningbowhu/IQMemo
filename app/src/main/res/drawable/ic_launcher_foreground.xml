@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 以画布中心为基准缩放，保持文件图形居中并留出更舒展的安全区。 -->
+    <group
+        android:pivotX="54"
+        android:pivotY="54"
+        android:scaleX="0.86"
+        android:scaleY="0.86">
+
+        <!-- 纸张背景 -->
+        <path
+            android:fillColor="#D4B87A"
+            android:pathData="M30,25 L70,25 L78,33 L78,83 L30,83 Z" />
+        <!-- 纸张主体 -->
+        <path
+            android:fillColor="#FAF3E0"
+            android:pathData="M32,27 L68,27 L68,81 L32,81 Z" />
+        <!-- 折角 -->
+        <path
+            android:fillColor="#C4A86A"
+            android:pathData="M68,27 L76,35 L68,35 Z" />
+        <!-- 横线1 -->
+        <path
+            android:strokeColor="#D4B87A"
+            android:strokeWidth="2"
+            android:fillColor="#00000000"
+            android:pathData="M38,42 L62,42" />
+        <!-- 横线2 -->
+        <path
+            android:strokeColor="#D4B87A"
+            android:strokeWidth="2"
+            android:fillColor="#00000000"
+            android:pathData="M38,51 L62,51" />
+        <!-- 横线3（短） -->
+        <path
+            android:strokeColor="#D4B87A"
+            android:strokeWidth="2"
+            android:fillColor="#00000000"
+            android:pathData="M38,60 L55,60" />
+    </group>
+</vector>

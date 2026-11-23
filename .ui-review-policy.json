@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "source_inputs": [
+    "app/src/main",
+    "app/schemas",
+    "app/build.gradle.kts",
+    "app/proguard-rules.pro",
+    "build.gradle.kts",
+    "settings.gradle.kts",
+    "gradle.properties",
+    "gradle",
+    "gradlew",
+    ".agents/scripts/ui_release_gate.py",
+    ".agents/scripts/verify_release.py",
+    "gradlew.bat"
+  ],
+  "ui_inputs": [
+    "app/src/main/*",
+    "app/build.gradle.kts",
+    "build.gradle.kts",
+    "settings.gradle.kts",
+    "gradle/*",
+    "gradle.properties"
+  ],
+  "exclude": [],
+  "current_review": "界面截图/current.json"
+}

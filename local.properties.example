@@ -1,0 +1,14 @@
+# Copy to local.properties and set your Android SDK location.
+sdk.dir=/path/to/android-sdk
+
+# Optional: your own release signing identity. Not needed for Debug builds.
+# IQMEMO_SIGNING_STORE=/path/to/your-own.keystore
+# IQMEMO_SIGNING_STORE_PASSWORD=your-local-password
+# IQMEMO_SIGNING_KEY_ALIAS=your-key-alias
+# IQMEMO_SIGNING_KEY_PASSWORD=your-local-password
+
+# Optional Xfyun IAT credentials. Leave absent for a public, text-only APK.
+# Values compiled into an APK are extractable; do not distribute an APK with your private credentials.
+# XFYUN_APP_ID=your_app_id
+# XFYUN_API_KEY=your_api_key
+# XFYUN_API_SECRET=your_api_secret

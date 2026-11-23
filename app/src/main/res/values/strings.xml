@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">速记</string>
+    <string name="app_title">@string/app_name</string>
+
+    <string name="empty_notes">还没有笔记\n点击下方按钮开始记录</string>
+    <string name="note_hint">记录你的灵感…</string>
+    <string name="create_backup">备份全部数据</string>
+    <string name="restore_backup">恢复备份</string>
+    <string name="about_menu">关于速记</string>
+    <string name="about_title">速记</string>
+    <string name="about_message">本地备忘录与记事本工具，支持文字记录、自动保存、统一搜索、桌面卡片和本地 JSON 备份恢复。\n\n版本：%1$s\n更新日期：2026-11-23\n\n本次更新：MIT 开源发布，公开版独立安装，不包含私人密钥。文字功能可直接使用；在线语音需开发者配置自己的讯飞服务后构建。已移除工作台绑定和同步，所有记录独立保存在本机。源码与配置说明：github.com/ningbowhu/IQMemo</string>
+    <string name="about_close">知道了</string>
+    <string name="restore_success">已恢复 %d 条记录</string>
+    <string name="restore_no_new_notes">备份中的记录已存在，没有新增重复记录</string>
+    <string name="restore_failed">恢复失败，请确认选择的是有效的 IQMemo JSON 备份</string>
+    <string name="restore_merge_confirm">恢复将合并备忘录与记事本，保留现有内容并跳过重复记录。记事本仍只保存在本地。建议先备份全部数据。</string>
+    <string name="continue_restore">继续恢复</string>
+    <string name="backup_success">已备份 %d 条记录</string>
+    <string name="backup_failed">备份失败，请重新选择保存位置</string>
+    <string name="backup_no_notes">当前没有可备份的备忘录或记事</string>
+    <string name="exit_recording">退出</string>
+    <string name="finish_recording">完成</string>
+    <string name="recording_mic_symbol">🎙️</string>
+    <string name="recording_in_progress">正在录音</string>
+    <string name="recording_initial_duration">00:00</string>
+    <string name="realtime_recognition">实时识别</string>
+    <string name="realtime_recognition_hint">说话后，识别文字会实时显示在这里</string>
+    <string name="voice_auto_finishing">识别完成，正在保存...</string>
+
+    <string name="delete_confirm_title">删除笔记</string>
+    <string name="delete_confirm_message">确定要删除这条笔记吗？本机删除不可撤销。</string>
+    <string name="delete">删除</string>
+    <string name="delete_failed">删除失败，请重试</string>
+    <string name="cancel">取消</string>
+
+
+    <string name="widget_description">在桌面显示所有备忘录内容</string>
+    <string name="widget_empty">暂无备忘录</string>
+
+    <string name="text_note_button">✏️  文字记录</string>
+    <string name="voice_note_button">🎙️  语音录入</string>
+    <string name="auto_saved">自动保存</string>
+    <string name="created_time">创建时间：%1$s</string>
+    <string name="updated_time">最后修改：%1$s</string>
+    <string name="empty_content">（无内容）</string>
+    <string name="draft">草稿</string>
+
+    <string name="selection_count_zero">已选 0 项</string>
+    <string name="selection_count">已选 %1$d 项</string>
+    <string name="select_all">全选</string>
+    <string name="delete_notes_title">删除笔记</string>
+    <string name="delete_selected_message">确定删除选中的 %1$d 条记录？本机删除不可撤销。</string>
+
+    <string name="filter_all">全部</string>
+    <string name="filter_today">今天</string>
+    <string name="filter_undated">无日期</string>
+    <string name="filter_completed">已完成</string>
+    <string name="add_task_short">＋待办</string>
+    <string name="add_task_for_date_description">为%1$s新建待办</string>
+    <string name="empty_selected_date">这一天还没有待办\n点击日历中的“＋待办”开始添加</string>
+    <string name="empty_undated_tasks">没有无日期待办</string>
+    <string name="empty_completed_tasks">还没有已完成待办</string>
+
+    <string name="task_completed">已完成</string>
+    <string name="set_task_time">设置时间</string>
+    <string name="clear_task_time">清除时间</string>
+    <string name="toggle_task_completed">切换待办完成状态</string>
+    <string name="task_update_failed">待办状态更新失败，请重试</string>
+    <string name="record_type">记录类型</string>
+    <string name="record_type_note">普通记录</string>
+    <string name="record_type_task">待办</string>
+    <string name="task_date_label">待办日期</string>
+    <string name="quick_undated">无日期</string>
+    <string name="quick_today">今天</string>
+    <string name="quick_tomorrow">明天</string>
+    <string name="quick_choose_date">选择日期</string>
+    <string name="quick_task_create_title">快捷创建待办</string>
+    <string name="quick_task_convert_title">转为待办</string>
+    <string name="quick_task_current_target">当前日期：%1$s</string>
+    <string name="quick_task_method">选择记录方式</string>
+    <string name="quick_text_task">✏️  文字待办</string>
+    <string name="quick_voice_task">🎙️  语音待办</string>
+    <string name="quick_confirm_convert">确认转为待办</string>
+    <string name="quick_convert_card">转待办</string>
+    <string name="plain_record_saved">已保存为普通记录</string>
+    <string name="convert_to_task_action">转为待办</string>
+    <string name="recording_task_target">将保存为%1$s待办</string>
+    <string name="note_load_failed">无法读取这条记录，请返回后重试</string>
+    <string name="voice_connecting">正在连接语音服务，请开始说话…</string>
+    <string name="voice_listening">正在识别，请自然说话…</string>
+    <string name="voice_finishing">正在接收最后的识别结果并保存…</string>
+    <string name="voice_save_failed">保存未完成，文字已保留在当前页面，请重试</string>
+    <string name="voice_final_timeout">未等到最终修正，已保存当前识别文字，请核对</string>
+    <string name="speech_language">语音识别语言</string>
+    <string name="language_chinese">中文 / 中英混说</string>
+    <string name="language_english">英文为主</string>
+    <string name="recording_language">识别语言：%1$s（可在首页菜单更改）</string>
+    <string name="sync_completed">已完成</string>
+    <string name="tab_memos">备忘录</string>
+    <string name="tab_notebooks">记事本</string>
+    <string name="notebook_page">记事</string>
+    <string name="notebook_new">新建</string>
+    <string name="notebook_empty">还没有记事\n点击下方“新建”开始记录</string>
+    <string name="notebook_title_hint">标题</string>
+    <string name="notebook_content_hint">在这里写下正文……</string>
+    <string name="notebook_untitled">无标题记事</string>
+    <string name="notebook_save_failed">保存失败，输入已保留。点此重试；也可以返回，稍后重新打开恢复草稿。</string>
+    <string name="notebook_recovery_message">已恢复上次未保存的本机草稿，将继续自动保存。</string>
+    <string name="notebook_separate">原记事已有其他修改，本次内容已另存为一篇记事。</string>
+    <string name="notebook_delete_title">删除记事</string>
+    <string name="notebook_delete_message">确定删除这篇记事？此操作只影响本机记事本。</string>
+    <string name="notebook_delete_selected">确定删除选中的 %d 篇记事？此操作只影响本机记事本。</string>
+    <string name="search">搜索</string>
+    <string name="search_hint">搜索备忘录和记事本</string>
+    <string name="search_prompt">输入关键词，搜索备忘录和记事本</string>
+    <string name="search_no_results">没有找到相关内容</string>
+    <string name="search_result_origin">%1$s · %2$s</string>
+</resources>
